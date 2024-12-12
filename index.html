@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda en Línea</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a Nuestra Tienda</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Productos Destacados</h2>
+            <ul id="listaProductos"></ul>
+        </section>
+        <section>
+            <h2>Bebidas</h2>
+            <ul id="listaBebidas"></ul>
+        </section>
+        <section>
+            <h2>Canasta de Compras</h2>
+            <ul id="canasta"></ul>
+            <p>Total: $<span id="total">0</span></p>
+            <button id="botonPagar">Pagar</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tienda en Línea</p>
+    </footer>
+
+    <!-- Modal --> 
+    <div id="miModal" class="modal"> <div class="modal-contenido"> <span class="cerrar">&times;</span> <p>¡Gracias por tu compra!</p> </div> </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
